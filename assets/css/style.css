@@ -1,0 +1,221 @@
+.container{
+    width: 1082px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.loeader-heading-content{
+    width: 52%;
+    margin: 0 auto;
+    padding: 0 0 50px;
+    text-align: center;
+} 
+.loeader-heading-content h2{
+color: #23282d;
+    font-size: 1.3em;
+    margin: 1em 0;
+}
+.loeader-heading-content p {
+    margin: 0;
+    color: #999;
+    font-size: 0.938em;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif
+    }
+    .loader_1{
+        width: 30%;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+        margin-top: 30px;
+    }
+    .loader_1 img{
+    max-width: 100%;
+    float: left;
+    }
+.pop_loader, .pop_loader2, .pop_loader3, .pop_loader4, .pop_loader5, .pop_loader6, .pop_loader7, .pop_loader8 ,.pop_loader9{
+    width:100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 9999;
+    background: #2dcc70;
+  overflow: hidden;
+    top: 0px;
+    display: none;
+    left: 0px;
+}
+.pop_loader2{
+    background-color: #db84f7;   
+}
+.pop_loader3{
+    background-color: #0073aa;
+}
+.pop_loader4{
+  background-color: #fa73f2;
+}
+.pop_loader5{
+    background-color: #5c0a57;
+   }
+.pop_loader6{
+   background-color: #085a64;
+}
+.pop_loader7{
+   background-color: #043922;
+}
+.pop_loader8{
+   background-color: #81f7f0;
+}
+.pop_loader9{
+    background-color: #364342;
+}
+.loader, .loader2, .loader3, .loader4, .loader5, .loader6, .loader7, .loader8, .loader9{
+    width: 100%;
+    text-align: center;
+}
+.loader img{
+    margin-top: 30vh;
+}
+.loader2 img{
+    margin-top: 30vh;
+}
+.loader3 img{
+    margin-top: 50vh;
+}
+.loader4 img{
+    margin-top: 50vh;
+}
+.loader5 img{
+    margin-top: 40vh;
+}
+.loader6 img{
+    margin-top: 40vh;
+}
+.loader7 img{
+    margin-top: 40vh;
+}
+.loader8 img{
+    margin-top: 40vh;
+}
+.loader9 img{
+    margin-top: 40vh;
+}
+.install_preview{
+  text-align: center;
+ position: relative;
+    top: 6px;
+}
+.install_preview button{
+       border: none;
+    background: #00b9eb;
+    padding: 5px 17px;
+    cursor: pointer;
+    border-radius: 4px;
+        margin-left: 10px;
+}
+.preloader {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/img1.svg');
+   background-repeat: no-repeat; 
+   background-color: #050505;
+   background-position: center;
+}
+.preloader2 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/img2.svg');
+   background-repeat: no-repeat; 
+   background-color: #db84f7;
+   background-position: center;
+}
+.preloader3 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/img3.svg');
+   background-repeat: no-repeat; 
+   background-color: #daddde;
+   background-position: center;
+}
+.preloader4 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/img4.gif');
+   background-repeat: no-repeat; 
+   background-color: #fa73f2;
+   background-position: center;
+}
+.preloader5 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/img5.svg');
+   background-repeat: no-repeat; 
+   background-color: #10010f;
+   background-position: center;
+}
+.preloader6 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/img6.svg');
+   background-repeat: no-repeat; 
+   background-color: #011214;
+   background-position: center;
+}
+.preloader7 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/img7.svg');
+   background-repeat: no-repeat; 
+   background-color: #011b10;
+   background-position: center;
+}
+.preloader8 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/img8.gif');
+   background-repeat: no-repeat; 
+   background-color: #8bf8f2;
+   background-position: center;
+}
+.preloader9 {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/img9.gif');
+   background-repeat: no-repeat; 
+   background-color: #181f1e;
+   background-position: center;
+}
